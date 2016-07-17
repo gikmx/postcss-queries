@@ -43,13 +43,13 @@
 @custom-media --mobile-htc-1-portrait (--mobile-htc-1) and (--portrait);
 @custom-media --mobile-htc-1-landscape (--mobile-htc-1) and (--landscape);
 
-@custom-media --tablet-ipad (--screen) and (768px <= width <= 1024px) and (--pixel-1);
-@custom-media --tablet-ipad-portrait (--tablet-ipad) and (--portrait);
-@custom-media --tablet-ipad-landscape (--tablet-ipad) and (--landscape);
-
 @custom-media --tablet (--screen) and (601px <= width <= 1280px);
 @custom-media --tablet-portrait (--tablet) and (--portrait);
 @custom-media --tablet-landscape (--tablet) and (--landscape);
+
+@custom-media --tablet-ipad (--screen) and (768px <= width <= 1024px) and (--pixel-1);
+@custom-media --tablet-ipad-portrait (--tablet-ipad) and (--portrait);
+@custom-media --tablet-ipad-landscape (--tablet-ipad) and (--landscape);
 
 @custom-media --tablet-ipad-retina (--screen) and (768px <= width <= 1024px) and (--pixel-2);
 @custom-media --tablet-ipad-retina-portrait (--tablet-ipad-retina) and (--portrait);
