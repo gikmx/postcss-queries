@@ -16,9 +16,7 @@
   "files": [
     "index.css"
   ],
-  "engines": {
-    "node": ">=6.2.0"
-  },
+  "engines": {},
   "scripts": {
     "precommit": "./node_modules/.bin/feliz.hooks pre-commit"
   },
