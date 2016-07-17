@@ -1,0 +1,24 @@
+{
+  "name": "postcss-queries",
+  "version": "0.0.1",
+  "description": "Media query presets for postcss.",
+  "main": "index.css",
+  "style": "index.css",
+  "author": "Héctor Menéndez <etor@gik.mx>",
+  "license": "MIT",
+  "repository": "gikmx/postcss-queries",
+  "bugs": "http://github.com/gikmx/postcss-queries",
+  "keywords": [
+    "postcss",
+    "media query",
+    "preset"
+  ],
+  "files": [
+    "index.css"
+  ],
+  "engines": {
+    "node": ">=6.2.0"
+  },
+  "scripts": {},
+  "devDependencies": {}
+}
