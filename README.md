@@ -19,6 +19,28 @@ Once ready, just import it in your stylesheet.
 ```css
 @import 'postcss-queries';
 ```
+# What's included?
+
+Every mobile and tablet query includes a `portrait` and `landscape` shorthand.
+
+- mobile
+  - iphone-4
+  - iphone-5
+  - iphone-6
+  - iphone-6plus
+  - galaxy-s3
+  - galaxy-s4
+  - galaxy-s5
+  - htc-1
+- tablet
+  - ipad (mini, 1, 2)
+  - ipad-retina (3, 4)
+  - galaxy
+  - nexus-7
+  - kindle-fire
+- desktop
+- desktop-wide
+
 
 ## License
 
