@@ -2,6 +2,24 @@
 
 Media query presets for postcss.
 
+# Installation
+
+```bash
+npm i -S postcss-queries
+```
+
+# Usage
+
+Your project should arleady have postcss upand running with _custom-media_ support via
+[postcss-custom-media](https://github.com/postcss/postcss-custom-media) and _import_
+support via [postcss-import](https://github.com/postcss/postcss-import).
+
+Once ready, just import it in your stylesheet.
+
+```css
+@import 'postcss-queries';
+```
+
 ## License
 
 ---

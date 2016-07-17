@@ -1,6 +1,6 @@
 {
   "name": "postcss-queries",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Media query presets for postcss.",
   "main": "index.css",
   "style": "index.css",

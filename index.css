@@ -1,0 +1,71 @@
+@custom-media --screen only screen;
+@custom-media --landscape (orientation:landscape);
+@custom-media --portrait (orientation:portrait);
+@custom-media --pixel-1 (-webkit-min-device-pixel-ratio:1);
+@custom-media --pixel-2 (-webkit-min-device-pixel-ratio:2);
+@custom-media --pixel-3 (-webkit-min-device-pixel-ratio:3);
+@custom-media --pixel-nexus (-webkit-min-device-pixel-ratio:1.331) and (-webkit-max-device-pixel-ratio:1.332)
+@custom-media --pixel-kindle (-webkit-min-device-pixel-ratio:1.5);
+
+@custom-media --mobile (--screen) and (320px <= width <= 736px);
+@custom-media --mobile-landscape (--mobile) and (--landscape);
+@custom-media --mobile-portrait (--mobile) and (--portrait);
+
+@custom-media --mobile-iphone-4 (--screen) and (320px <= width <= 480px) and (--pixel-2);
+@custom-media --mobile-iphone-4-portrait (--mobile-iphone-4) and (--portrait);
+@custom-media --mobile-iphone-4-landscape (--mobile-iphone-4) and (--landscape);
+
+@custom-media --mobile-iphone-5 (--screen) and (320px <= width <= 568px) and (--pixel-2);
+@custom-media --mobile-iphone-5-portrait (--mobile-iphone-5) and (--portrait);
+@custom-media --mobile-iphone-5-landscape (--mobile-iphone-5) and (--landscape);
+
+@custom-media --mobile-iphone-6 (--screen) and (375px <= width <= 667px) and (--pixel-2);
+@custom-media --mobile-iphone-6-portrait (--mobile-iphone-6) and (--portrait);
+@custom-media --mobile-iphone-6-landscape (--mobile-iphone-6) and (--landscape);
+
+@custom-media --mobile-iphone-6plus (--screen) and (414px <= width <= 736px) and (--pixel-3);
+@custom-media --mobile-iphone-6plus-portrait (--mobile-iphone-6plus) and (--portrait);
+@custom-media --mobile-iphone-6plus-landscape (--mobile-iphone-6plus) and (--landscape);
+
+@custom-media --mobile-galaxy-s3 (--screen) and (320px <= width <= 640px) and (--pixel-2);
+@custom-media --mobile-galaxy-s3-portrait (--mobile-galaxy-s3) and (--portrait);
+@custom-media --mobile-galaxy-s3-landscape (--mobile-galaxy-s3) and (--landscape);
+
+@custom-media --mobile-galaxy-s4 (--screen) and (320px <= width <= 640px) and (--pixel-3);
+@custom-media --mobile-galaxy-s4-portrait (--mobile-galaxy-s4) and (--portrait);
+@custom-media --mobile-galaxy-s4-landscape (--mobile-galaxy-s4) and (--landscape);
+
+@custom-media --mobile-galaxy-s5 (--screen) and (360px <= width <= 640px) and (--pixel-3);
+@custom-media --mobile-galaxy-s5-portrait (--mobile-galaxy-s5) and (--portrait);
+@custom-media --mobile-galaxy-s5-landscape (--mobile-galaxy-s5) and (--landscape);
+
+@custom-media --mobile-htc-1 (--screen) and (device-width:360px) and (device-height:640px) and (-webkit-device-pixel-ratio:3);
+@custom-media --mobile-htc-1-portrait (--mobile-htc-1) and (--portrait);
+@custom-media --mobile-htc-1-landscape (--mobile-htc-1) and (--landscape);
+
+@custom-media --tablet-ipad (--screen) and (768px <= width <= 1024px) and (--pixel-1);
+@custom-media --tablet-ipad-portrait (--tablet-ipad) and (--portrait);
+@custom-media --tablet-ipad-landscape (--tablet-ipad) and (--landscape);
+
+@custom-media --tablet (--screen) and (601px <= width <= 1280px);
+@custom-media --tablet-portrait (--tablet) and (--portrait);
+@custom-media --tablet-landscape (--tablet) and (--landscape);
+
+@custom-media --tablet-ipad-retina (--screen) and (768px <= width <= 1024px) and (--pixel-2);
+@custom-media --tablet-ipad-retina-portrait (--tablet-ipad-retina) and (--portrait);
+@custom-media --tablet-ipad-retina-landscape (--tablet-ipad-retina) and (--landscape);
+
+@custom-media --tablet-galaxy (--screen) and (800px <= width <= 1280px) and (--pixel-2);
+@custom-media --tablet-galaxy-portrait (--tablet-galaxy) and (--portrait);
+@custom-media --tablet-galaxy-landscape (--tablet-galaxy) and (--landscape);
+
+@custom-media --tablet-nexus-7 (--screen) and (601px <= width <= 906px) and (--pixel-nexus);
+@custom-media --tablet-nexus-7-portrait (--tablet-nexus-7) and (--portrait);
+@custom-media --tablet-nexus-7-landscape (--tablet-nexus-7) and (--landscape);
+
+@custom-media --tablet-kindle-fire (--screen) and (800px <= width <= 1280px) and (--pixel-kindle);
+@custom-media --tablet-kindle-fire-portrait (--tablet-kindle-fire) and (--portrait);
+@custom-media --tablet-kindle-fire-landscape (--tablet-kindle-fire) and (--landscape);
+
+@custom-media --desktop (--screen) and (width >= 992px);
+@custom-media --desktop-wide (--screen) and (width >= 1280px);
