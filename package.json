@@ -1,6 +1,6 @@
 {
   "name": "postcss-queries",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Media query presets for postcss.",
   "main": "index.css",
   "style": "index.css",
@@ -19,6 +19,11 @@
   "engines": {
     "node": ">=6.2.0"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "scripts": {
+    "precommit": "./node_modules/.bin/feliz.hooks pre-commit"
+  },
+  "devDependencies": {
+    "feliz.hooks": "0.0.4",
+    "husky": "^0.11.5"
+  }
 }
